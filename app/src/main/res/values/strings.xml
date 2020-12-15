@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">The News App</string>
+    <string name="copy_right" translatable="false">Copyrights © %1$d</string>
+    <string name="GATE">GATE</string>
+    <string name="OTHERS">Others</string>
+    <string name="NEET">NEET</string>
+    <string name="JEE">JEE</string>
+    <string name="about_us">About Us</string>
+    <string name="info">The News App is a very useful tool to remind oneself about the upcoming exams related events.
+        Latest updates for 500+ entrance exams like IITJEE, NEET, GATE, CAT, CMAT, SNAP.</string>
+    <string name="version">Version : 1.0.4</string>
+    <string name="email">thenewsapp@gmail.com</string>
+</resources>
