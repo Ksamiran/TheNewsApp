@@ -17,6 +17,9 @@ public class Dashboard extends AppCompatActivity {
         setContentView(R.layout.activity_dashboard);
 
         aboutusbutton = findViewById(R.id.about);
+        govbutton = findViewById(R.id.gov);
+        codebutton = findViewById(R.id.coding);
+        genbutton = findViewById(R.id.general);
 
         aboutusbutton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -26,5 +29,28 @@ public class Dashboard extends AppCompatActivity {
             }
         });
 
+        govbutton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+
+                Intent goverment = new Intent(Dashboard.this, GovActivity.class);
+                startActivity(goverment);
+            }
+        });
+
+        codebutton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+
+                Intent coding = new Intent(Dashboard.this, CodeActivity.class);
+                startActivity(coding);
+            }
+        });
+        
+        genbutton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+
+                Intent general = new Intent(Dashboard.this, GeneralActivity.class);
+                startActivity(general);
+            }
+        });
     }
 }
